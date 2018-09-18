@@ -14,11 +14,19 @@
         echo "Kirjailija ".key['author']."<br>";
         echo "ISBN ".key['isbn']."<br>";
       }
-
-      <p>
-        print_r($a);
-      </p>
     }
  ?>
+
+<p>
+
+ <?php
+ function show_books2($a)
+ {
+     print_r($a);
+ }
+?>
+
+</p>
+
 </body>
 </html>
