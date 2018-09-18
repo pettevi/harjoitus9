@@ -7,12 +7,12 @@
     <?php
     function show_books($a)
     {
-      foreach ($a as $key => $value)
+      foreach ($a as $key)
       {
-        echo "ID ".a['book_id']."<br>";
-        echo "Nimi ".a['book_name']."<br>";
-        echo "Kirjailija ".a['author']."<br>";
-        echo "ISBN ".a['isbn']."<br>";
+        echo "ID ".key['book_id']."<br>";
+        echo "Nimi ".key['book_name']."<br>";
+        echo "Kirjailija ".key['author']."<br>";
+        echo "ISBN ".key['isbn']."<br>";
       }
 
       <p>
