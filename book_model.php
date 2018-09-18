@@ -1,6 +1,6 @@
 <?php
 function get_books(){
-    include "../connection.php";
+    include "connection.php";
     $sql = "SELECT * FROM book";
 
     $resultObject = $db->query($sql);
